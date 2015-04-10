@@ -85,7 +85,7 @@ if [ "$(whoami)" = "root" ]; then
 fi
 
 if [ -z "$MACHINE" ]; then
-    MACHINE='imx6qsabresd'
+    MACHINE='sk-imx6q'
 fi
 
 # Check the machine type specified
